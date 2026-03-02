@@ -15,7 +15,15 @@ body{
     font-family: 'Times New Roman', Times, serif;
 }
 
-.grid{
+h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: purple;
+}
+
+.displays{
     display: grid;
     gap: 10px;
     grid-template-columns: repeat(5,1);
@@ -36,4 +44,9 @@ body{
     background-color: white;
     color: white;
     transform: translateY(-5px);
+}
+
+.grade {
+    max-width: 700px;
+    margin: auto;
 }
