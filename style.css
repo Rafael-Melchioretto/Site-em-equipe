@@ -121,4 +121,57 @@ h2 {
       width: 80px;
     }
 
-    
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 10px;
+      background: #ecf0f1;
+      padding: 10px;
+    }
+
+    .grid .box {
+      background: #16a085;
+    }
+
+     .pos-container {
+      position: relative;
+      height: 200px;
+      background: #ecf0f1;
+      margin-top: 15px;
+    }
+
+    .static {
+      position: static;
+      background: #7f8c8d;
+    }
+
+    .relative {
+      position: relative;
+      top: 20px;
+      left: 20px;
+      background: #2980b9;
+    }
+
+    .absolute {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      background: #d35400;
+    }
+
+    .fixed {
+      position: fixed;
+      bottom: 10px;
+      right: 10px;
+      background: #8e44ad;
+      padding: 10px;
+      color: white;
+    }
+
+    .sticky {
+      position: sticky;
+      top: 0;
+      background: #27ae60;
+      padding: 10px;
+      color: white;
+    }
