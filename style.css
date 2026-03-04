@@ -80,3 +80,45 @@ h2 {
       text-align: center;
       font-weight: bold;
     }
+
+    .block .box {
+      display: block;
+      width: 200px;
+    }
+
+    .inline .box {
+      display: inline;
+      background: #e67e22;
+    }
+
+    .inline-block .box {
+      display: inline-block;
+      width: 120px;
+      background: #9b59b6;
+    }
+
+    .flex {
+      display: flex;
+      gap: 10px;
+      background: #ecf0f1;
+      padding: 10px;
+    }
+
+    .flex .box {
+      background: #27ae60;
+      width: 100px;
+    }
+
+    .inline-flex {
+      display: inline-flex;
+      gap: 10px;
+      background: #bdc3c7;
+      padding: 10px;
+    }
+
+    .inline-flex .box {
+      background: #c0392b;
+      width: 80px;
+    }
+
+    
