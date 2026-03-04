@@ -10,7 +10,7 @@ body{
     justify-content: space-around;
     align-items: center;
     padding: 5px;
-    background-color: rgb(0, 195, 255);
+    background-color: rgb(62, 157, 185);
     color: white;
     font-family: 'Times New Roman', Times, serif;
 }
@@ -20,7 +20,7 @@ h2 {
     margin-bottom: 30px;
     font-weight: 600;
     letter-spacing: 1px;
-    color: purple;
+    color: rgb(0, 0, 0);
 }
 
 .displays{
@@ -29,15 +29,7 @@ h2 {
     grid-template-columns: repeat(5,1);
 }
 
-.botao{
-    background-color: #007bff; 
-  color: white;             
-  padding: 10px 20px;       
-  text-decoration: none;    
-  border-radius: 5px;       
-  display: inline-block;
-  transition: background-color 0.3s;
-} 
+
 
 .botao:hover {
     background-color: white;
@@ -45,26 +37,16 @@ h2 {
     transform: translateY(-5px);
 }
 
-.grade {
-    max-width: 700px;
-    margin: auto;
-}
-
-.yo{
-    padding: 100;
-    margin: 20;
-    background-color: rgb(255, 255, 119);
-}
 
 .flex{
     display: flex;
 }
 
   h1, h2 {
-      color: #2c3e50;
+      color: #000000;
     }
 
-    .secao {
+.secao {
       background: white;
       padding: 15px;
       margin-bottom: 25px;
@@ -72,8 +54,8 @@ h2 {
       box-shadow: 0 0 5px rgba(0,0,0,0.1);
     }
 
-    .box {
-      background: #3498db;
+.box {
+      background:  rgb(62, 157, 185);
       color: white;
       padding: 10px;
       margin: 5px;
@@ -81,47 +63,47 @@ h2 {
       font-weight: bold;
     }
 
-    .block .box {
+.block .box {
       display: block;
       width: 200px;
     }
 
-    .inline .box {
+.inline .box {
       display: inline;
-      background: #e67e22;
+      background: #f37373;
     }
 
-    .inline-block .box {
+.inline-block .box {
       display: inline-block;
       width: 120px;
       background: #9b59b6;
     }
 
-    .flex {
+.flex {
       display: flex;
       gap: 10px;
       background: #ecf0f1;
       padding: 10px;
     }
 
-    .flex .box {
+.flex .box {
       background: #27ae60;
       width: 100px;
     }
 
-    .inline-flex {
+.inline-flex {
       display: inline-flex;
       gap: 10px;
       background: #bdc3c7;
       padding: 10px;
     }
 
-    .inline-flex .box {
+.inline-flex .box {
       background: #c0392b;
       width: 80px;
     }
 
-    .grid {
+.grid {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
       gap: 10px;
@@ -129,37 +111,37 @@ h2 {
       padding: 10px;
     }
 
-    .grid .box {
+.grid .box {
       background: #16a085;
     }
 
-     .pos-container {
+.pos-container {
       position: relative;
       height: 200px;
       background: #ecf0f1;
       margin-top: 15px;
     }
 
-    .static {
+.static {
       position: static;
       background: #7f8c8d;
     }
 
-    .relative {
+.relative {
       position: relative;
       top: 20px;
       left: 20px;
       background: #2980b9;
     }
 
-    .absolute {
+.absolute {
       position: absolute;
       top: 10px;
       right: 10px;
       background: #d35400;
     }
 
-    .fixed {
+.fixed {
       position: fixed;
       bottom: 10px;
       right: 10px;
@@ -168,10 +150,11 @@ h2 {
       color: white;
     }
 
-    .sticky {
+.sticky {
       position: sticky;
       top: 0;
       background: #27ae60;
       padding: 10px;
       color: white;
     }
+    
