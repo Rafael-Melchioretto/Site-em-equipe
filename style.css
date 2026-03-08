@@ -159,4 +159,17 @@ h2 {
       padding: 10px;
       color: white;
     }
+
+.inline-grid{
+display: inline-grid;
+grid-template-columns: repeat(2,1fr);
+gap:10px;
+background:#dfe6e9;
+padding:10px;
+}
+
+.inline-grid .box{
+background:#6c5ce7;
+}
+
     
