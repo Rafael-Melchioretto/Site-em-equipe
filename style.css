@@ -172,4 +172,29 @@ padding:10px;
 background:#6c5ce7;
 }
 
+.flow-root{
+display: flow-root;
+background:#ecf0f1;
+padding:10px;
+}
+
+.flow-root .box{
+background:#00b894;
+width:120px;
+float:left;
+}
+
+
+.table{
+display: table;
+background:#ecf0f1;
+padding:10px;
+}
+
+.table .box{
+display: table-cell;
+background:#e67e22;
+padding:20px;
+}
+
     
