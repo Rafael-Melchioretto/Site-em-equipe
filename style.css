@@ -25,11 +25,6 @@ h2 {
     color: rgb(0, 0, 0);
 }
 
-.displays{
-    display: grid;
-    gap: 10px;
-    grid-template-columns: repeat(5,1);
-}
 
 .flex{
     display: flex;
