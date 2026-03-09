@@ -31,15 +31,6 @@ h2 {
     grid-template-columns: repeat(5,1);
 }
 
-
-
-.botao:hover {
-    background-color: white;
-    color: white;
-    transform: translateY(-5px);
-}
-
-
 .flex{
     display: flex;
 }
