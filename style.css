@@ -7,13 +7,14 @@ body{
 
 #navbar{
     position:fixed;
+    z-index: 1000;
     display: flex;
     justify-content: space-around;
     align-items: center;
     width: 100%;
     padding: 5px;
     background-color: rgb(62, 157, 185);
-    color: white;
+    color: rgb(255, 255, 255);
     font-family: 'Times New Roman', Times, serif;
 }
 
